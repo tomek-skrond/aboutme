@@ -29,6 +29,9 @@
                 <!-- Active Link = text-indigo-500
                 Inactive Link = hover:text-indigo-500 -->
 				<li class="md:px-4 md:py-2 hover:text-indigo-400">
+					<a href="/" class="nav-link {currentRoute === '/' ? 'active' : ''}">Home</a>
+				</li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400">
 					<a href="/about" class="nav-link {currentRoute === '/about' ? 'active' : ''}">About</a>
 				</li>
 				<li class="md:px-4 md:py-2 hover:text-indigo-400">
@@ -51,7 +54,6 @@
 		</div>
 	</div>
 </nav>
-
 
 <slot></slot>
 

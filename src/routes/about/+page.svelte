@@ -7,8 +7,9 @@
 
 <section class="container mx-auto mt-8 p-6 bg-slate-800 rounded-lg shadow-md">
     <h2 class="text-2xl font-bold mb-4 custom-primary">My professional interests</h2>
-    <p class="mb-4">I am a DevOps engineer with a keen interest in cyber security and open source technologies.</p>
+    <p class="mb-4">Hi, my name is Tomek, and I am a DevOps Engineer with passion for cyber security and open source systems.</p>
 </section>
+
 
 <section class="container mx-auto mt-8 p-6 bg-slate-800	rounded-lg shadow-md">
     <h2 class="text-2xl font-bold mb-4 custom-primary">Tech Stack</h2>
@@ -26,3 +27,20 @@
         <li><strong>GitOps:</strong> Basic understanding of GitOps methodology, basic knowledge of ArgoCD.</li>
     </ul>
 </section>
+
+<div class="container mx-auto mt-8 p-6 bg-slate-800	rounded-lg shadow-md">
+    <h2 class="text-2xl font-bold mb-4 custom-primary">Education</h2>
+    <ul>
+        <li>
+            <strong>Wrocław University of Science and Technology</strong> - Wrocław<br>
+            Engineer (Bachelor's degree) - Cyber Security<br>
+            Final Grade: 4.5<br>
+            Duration: 2019-2023
+        </li>
+        <li>
+            <strong>Wrocław University of Science and Technology</strong> - Wrocław<br>
+            Master's degree - Cyber Security<br>
+            Duration: 2023-currently
+        </li>
+    </ul>
+</div>

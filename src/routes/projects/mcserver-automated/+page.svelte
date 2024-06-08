@@ -1,1 +1,0 @@
-<h2>mcserver project</h2>
