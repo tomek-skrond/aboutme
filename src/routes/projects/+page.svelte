@@ -1,1 +1,1 @@
-<div>Projects page hello</div>
+<!-- <div>Projects page footer</div> -->

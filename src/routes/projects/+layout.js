@@ -2,8 +2,14 @@
 export function load() {
 	return {
 		sections: [
-			{ slug: 'profile', title: 'Profile' },
-			{ slug: 'notifications', title: 'Notifications' }
+			{ slug: 'mcserver-automated', title: 'Minecraft Server Automation' },
+			{ slug: 'notifications', title: 'Notifications' },
+			{ slug: 'notifications234', title: 'Notifications2' },
+			{ slug: 'notifications234', title: 'Notifications2' },
+			{ slug: 'notifications234', title: 'Notifications2' },
+			{ slug: 'notifications234', title: 'Notifications2' },
+			{ slug: 'notifications234', title: 'Notifications2' }
+
 		]
 	};
 }
