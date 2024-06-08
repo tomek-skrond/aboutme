@@ -2,14 +2,21 @@
 export function load() {
 	return {
 		sections: [
-			{ slug: 'mcserver-automated', title: 'Minecraft Server Automation' },
-			{ slug: 'notifications', title: 'Notifications' },
-			{ slug: 'notifications234', title: 'Notifications2' },
-			{ slug: 'notifications234', title: 'Notifications2' },
-			{ slug: 'notifications234', title: 'Notifications2' },
-			{ slug: 'notifications234', title: 'Notifications2' },
-			{ slug: 'notifications234', title: 'Notifications2' }
-
+			{ 
+				slug: 'mcserver-automated',
+				title: 'Minecraft Server Automation',
+				tags: ["asdf","asdfsdfdsfa","fdsgggg","fdsgggg","fdsgggg","fdsgggg"]
+			},
+			{ 
+				slug: 'mcserver-automated',
+				title: 'Minecraft Server Automation',
+				tags: ["asdf","asdfsdfdsfa","fdsgggg"]
+			},
+			{ 
+				slug: 'mcserver-automated',
+				title: 'Minecraft Server Automation',
+				tags: ["asdf","asdfsdfdsfa","fdsgggg","fdsgggg","fdsgggg","fdsgggg","fdsgggg","fdsgggg"]
+			}
 		]
 	};
 }

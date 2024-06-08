@@ -1,1 +1,1 @@
-<h2>Profile project</h2>
+<h2>mcserver project</h2>
