@@ -62,7 +62,7 @@ jobs:
           echo -n "${{ secrets.SSH_KEY }}" > identity
       - name: Login to instance
         run: |
-          ssh -i identity "${{ secrets.INSTANCE_LOGIN }}"@"${{ secrets.INSTANCE_IP }}" "ls -la"
+          ssh -i identity tomo@"${{ secrets.INSTANCE_IP }}" "ls -la"
       - name: Delete identity file
         run: |
           rm -f identity
