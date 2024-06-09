@@ -59,8 +59,11 @@ jobs:
     steps:
       - name: Extract SSH key
         run: |
-          echo ${{ secrets.SSH_KEY }} | base64 -d > identity
+          echo -n "${{ secrets.SSH_KEY }}" | base64 -d > identity
       - name: Login to instance
         run: |
           ssh -i identity ${{ secrets.INSTANCE_LOGIN }}@${{ secrets.INSTANCE_IP }} "ls -la"
+      - name: Delete identity file
+        run: |
+          rm -f identity
           
