@@ -65,5 +65,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            ls -la
+            docker stop $(docker ps | grep aboutme | awk '{print $1}') &&
+            docker run -dp 3000:3000 aboutme:latest
           
