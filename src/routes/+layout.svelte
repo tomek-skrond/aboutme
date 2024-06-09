@@ -16,7 +16,7 @@
 	<div class="h-28 mx-auto container flex items-center items-stretch justify-between flex-wrap">
 
 		<div class="self-center text-2xl box-decoration-clone bg-gradient-to-r from-slate-800 bg-indigo-600  text-white px-2 md:px-4 text-indigo-500">
-			<a href="/">v1</a>
+			<a href="/">Tomasz Skrond</a>
 		</div>
 		<div class="self-center text-gray-300 order-3 w-full md:w-auto md:order-2">
 			<ul class="flex font-semibold justify-between">
