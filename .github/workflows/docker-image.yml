@@ -59,7 +59,7 @@ jobs:
     steps:
       - name: Extract SSH key
         run: |
-          echo -n "${{ secrets.SSH_KEY }}" | base64 -d > identity
+          echo -n "${{ secrets.SSH_KEY }}" > identity
       - name: Login to instance
         run: |
           ssh -i identity "${{ secrets.INSTANCE_LOGIN }}"@"${{ secrets.INSTANCE_IP }}" "ls -la"
