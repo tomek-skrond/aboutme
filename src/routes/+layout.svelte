@@ -14,36 +14,36 @@
 	});
 </script>
 
-<nav class="shadow-2xl w-100 px-8 md:px-auto">
-	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+<nav style="margin:0;" class="shadow-2xl w-100 px-8 md:px-auto">
+	<div class="h-28 mx-auto container flex items-center items-stretch justify-between flex-wrap">
 		<!-- Logo -->
 		<!-- <div class="flex justify-start">
 			<img src="{img}" alt="">
 		</div> -->
 
-		<div class="text-2xl box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 md:px-4 md:py-2 text-indigo-500">
+		<div class="self-center text-2xl box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 md:px-4 text-indigo-500">
 			<a href="/">Tomasz Skrond</a>
 		</div>
-		<div class="text-gray-300 order-3 w-full md:w-auto md:order-2">
+		<div class="self-center text-gray-300 order-3 w-full md:w-auto md:order-2">
 			<ul class="flex font-semibold justify-between">
                 <!-- Active Link = text-indigo-500
                 Inactive Link = hover:text-indigo-500 -->
-				<li class="md:px-4 md:py-2 hover:text-indigo-400">
+				<li class="md:px-4 hover:text-indigo-400">
 					<a href="/" class="nav-link {currentRoute === '/' ? 'active' : ''}">Home</a>
 				</li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400">
+				<li class="md:px-4 hover:text-indigo-400">
 					<a href="/about" class="nav-link {currentRoute === '/about' ? 'active' : ''}">About</a>
 				</li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400">
+				<li class="md:px-4 hover:text-indigo-400">
 					<a href="/projects" class="nav-link {currentRoute === '/projects' ? 'active' : ''}">Projects</a>
 				</li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400">
+				<li class="md:px-4 hover:text-indigo-400">
 					<a href="/hobby" class="nav-link {currentRoute === '/hobby' ? 'active' : ''}">Hobby</a>
 				</li>
 				<!-- <li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Contact</a></li> -->
 			</ul>
 		</div>
-		<div class="order-2 md:order-3">
+		<div class="self-center order-2 md:order-3">
 			<button class="px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2">
                 <!-- Heroicons - Login Solid -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

@@ -50,6 +50,12 @@ export function load() {
 				title: 'Bash tool for provisioning Kubernetes cluster on VirtualBox',
 				tags: ["Bash","Python","Ansible","Vagrant","Kubernetes","Oracle VirtualBox"]
 			},
+			{
+				slug: 'aboutme',
+				githubName: 'tomek-skrond',
+				title: 'DevOps portfolio Web Page (page you are looking on right now ;p)',
+				tags: ["JavaScript","SvelteKit","Docker"]
+			},
 			{ 
 				slug: 'docker-runner-api',
 				githubName: 'tomek-skrond',
@@ -68,6 +74,7 @@ export function load() {
 				title: 'Exploit Automation for OWASP crAPI',
 				tags: ["Golang","OWASP","Penetration Testing"]
 			},
+
 		]
 	};
 }
