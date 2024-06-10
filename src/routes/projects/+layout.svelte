@@ -36,7 +36,7 @@
         <div class="p-5 rounded-md flex flex-wrap justify-center">
             {#each data.alltags as tag}
             <span 
-            class="tag bg-blue-100 text-blue-800 text-xs font-medium mx-2 my-1 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400 rounded border cursor-pointer"
+            class="tag bg-blue-100 text-blue-800 text-xs font-medium mx-2 my-1 px-2.5 py-0.5 dark:bg-gray-700 dark:text-blue-400 border-blue-400 rounded border cursor-pointer"
             class:selected="{ isSelected(tag) }"
             on:click={() => toggleTag(tag)}>
                 {tag}
@@ -46,7 +46,9 @@
         <div>
             Selected tags:
             {#each $selectedTags as tag}
-            <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400">{tag}</span>
+            <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400 cursor-pointer hover:bg-red-500 hover:text-red-900 hover:border-red-900"
+            class:selected="{ isSelected(tag) }"
+            on:click={() => toggleTag(tag)}>{tag}</span>
             {/each}
         </div>
     </div>

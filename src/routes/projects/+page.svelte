@@ -20,7 +20,7 @@
         {#each $filteredSections as section}
 			<li class="project p-2 mt-5">
 				<div class="container flex flex-col items-center justify-center">
-					<a href="https://github.com/{section.githubName}/{section.slug}" class="mb-2">{section.title}</a>
+					<a href="https://{section.platform}/{section.githubName}/{section.slug}" class="mb-2">{section.title}</a>
 					<div class="container tag-container flex flex-wrap justify-center">
 						<!-- Additional content like tags can go here -->
                         {#each section.tags as tag}
