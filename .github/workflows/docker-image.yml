@@ -67,5 +67,5 @@ jobs:
           script: |
             docker stop $(docker ps | grep aboutme | awk '{print $1}') &&
             docker pull tomekskr/aboutme:latest &&
-            docker run -dp 3000:3000 tomekskr/aboutme:latest
+            docker run -dp 3333:3000 tomekskr/aboutme:latest
           
