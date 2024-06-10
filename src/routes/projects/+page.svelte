@@ -1,11 +1,23 @@
 <script>
 	/** @type {import('./$types').LayoutData} */
 	export let data;
+	import { selectedTags } from '../../stores/tags';
+	import { derived } from 'svelte/store';
+
+    // Derived store to filter sections based on selected tags
+    const filteredSections = derived(selectedTags, $selectedTags => {
+        if ($selectedTags.length === 0) return data.sections;
+
+        return data.sections.filter(section => 
+            $selectedTags.every(tag => section.tags.includes(tag))
+        );
+    });
+	
 </script>
 
 <div class="submenu">
 	<ul class="flex flex-wrap">
-		{#each data.sections as section}
+        {#each $filteredSections as section}
 			<li class="project p-2 mt-5">
 				<div class="container flex flex-col items-center justify-center">
 					<a href="https://github.com/{section.githubName}/{section.slug}" class="mb-2">{section.title}</a>
@@ -13,7 +25,7 @@
 						<!-- Additional content like tags can go here -->
                         {#each section.tags as tag}
                         <span class="tag bg-blue-100 text-blue-800 text-xs font-medium mx-2 my-1 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">{tag}</span>
-                    {/each}
+                    	{/each}
 					</div>
 				</div>
 			</li>
