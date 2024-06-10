@@ -6,19 +6,19 @@ export function load() {
 				slug: 'command-center',
 				githubName: 'tomek-skrond',
 				title: 'Web API that provides command line snippets',
-				tags: ["Docker", "Golang", "CLI", "Web API"]
+				tags: ["Docker", "Golang", "CLI", "Web API", "Linux"]
 			},
 			{ 
 				slug: 'mcserver-automated',
 				githubName: 'tomek-skrond',
 				title: 'Minecraft Server Automation',
-				tags: ["Ansible", "Terraform", "GCP", "Docker", "Nginx"]
+				tags: ["Ansible", "Terraform", "GCP", "Docker", "Nginx", "Linux"]
 			},
 			{ 
 				slug: 'gcp-gke-infra',
 				githubName: 'tomek-skrond',
-				title: 'Infrastructure + CI/CD for Web App',
-				tags: ["Terraform", "Github Actions", "GCP","Golang", "Kubernetes", "CI/CD", "PostgresQL"]
+				title: 'Infrastructure + CI/CD for Recipes Web App',
+				tags: ["Terraform", "Github Actions", "GCP", "Golang", "Kubernetes", "Google Kubernetes Engine", "CI/CD", "PostgresQL", "Linux"]
 			},
 			{ 
 				slug: 'varmigrator',
@@ -48,7 +48,7 @@ export function load() {
 				slug: 'kube-provisioning-scripts',
 				githubName: 'tomek-skrond',
 				title: 'Bash tool for provisioning Kubernetes cluster on VirtualBox',
-				tags: ["Bash", "Python", "Ansible", "Vagrant", "Kubernetes", "Oracle VirtualBox"]
+				tags: ["Linux", "Bash", "Python", "Ansible", "Vagrant", "Kubernetes", "Oracle VirtualBox"]
 			},
 			{
 				slug: 'aboutme',
@@ -60,7 +60,7 @@ export function load() {
 				slug: 'docker-runner-api',
 				githubName: 'tomek-skrond',
 				title: 'Go API for running docker containers',
-				tags: ["Golang", "Web API", "Docker", "Github Actions"]
+				tags: ["Golang", "Web API", "Docker", "Github Actions", "Linux"]
 			},
 			{ 
 				slug: 'beerctl',
@@ -91,6 +91,18 @@ export function load() {
 				githubName: 'tomek-skrond',
 				title: 'Threat Modeling tools analysis for my master\'s thesis',
 				tags: ["Python", "Jupyter Notebook", "Data Analysis", "Microservice Architecture", "IriusRisk", "Microsoft Threat Modeling Tool"]
+			},
+			{ 
+				slug: 'recipe-app',
+				githubName: 'tomek-skrond',
+				title: 'A small web application for creating and storing food recipes',
+				tags: ["Web API", "Golang", "Docker", "CI/CD", "Github Actions"]
+			},
+			{ 
+				slug: 'recipe-app-manifests',
+				githubName: 'tomek-skrond',
+				title: 'Manifests for deploying recipe-app to GKE cluster',
+				tags: ["Kubernetes", "Google Kubernetes Engine", "ArgoCD", "Terraform", "CI/CD", "Github Actions"]
 			},
 		],
 		alltags : [

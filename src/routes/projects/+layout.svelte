@@ -30,6 +30,9 @@
 
 <div class="w-full flex justify-center" style="margin-top: 25px;">
     <div class="flex flex-col items-center w-max">
+        <div>
+            Choose a tag to filter projects:
+        </div>
         <div class="p-5 rounded-md flex flex-wrap justify-center">
             {#each data.alltags as tag}
             <span 
