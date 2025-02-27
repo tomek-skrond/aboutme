@@ -59,7 +59,7 @@ jobs:
     needs: docker_push
     steps:
       - name: executing remote ssh commands using ssh key
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v1.2.1
         with:
           host: ${{ secrets.INSTANCE_IP }}
           username: ${{ secrets.INSTANCE_LOGIN }}
