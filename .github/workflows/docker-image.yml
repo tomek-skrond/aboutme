@@ -25,7 +25,7 @@ jobs:
         tags: ${{ env.BUILD_IMAGE_NAME }}:latest
         outputs: type=docker,dest=./artifacts/aboutme.tar
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: aboutme
         path: ./artifacts
