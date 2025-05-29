@@ -7,13 +7,13 @@
 
 <section class="container mx-auto mt-8 p-6 bg-slate-800 rounded-lg shadow-md">
     <h2 class="text-2xl font-bold mb-4 custom-primary">My professional interests</h2>
-    <p class="mb-4">Hi, my name is Tomek, and I am a DevOps Engineer with passion for cyber security and open source systems.</p>
+    <p class="mb-4">Hi, my name is Tomek, and I am a DevOps Engineer with passion for cyber security and open source.</p>
 </section>
 
 
 <section class="container mx-auto mt-8 p-6 bg-slate-800	rounded-lg shadow-md">
-    <h2 class="text-2xl font-bold mb-4 custom-primary">Tech Stack</h2>
-    <ul class="list-disc list-inside">
+    <h2 class="text-2xl sm:text-2xl font-bold mb-4 custom-primary">Tech Stack</h2>
+    <ul class="text-sm list-disc list-inside">
         <li><strong>Linux:</strong> Strong experience with Linux systems, creating Bash scripts, using commands for system administration.</li>
         <li><strong>Infrastructure as Code:</strong> Creating infrastructure using Terraform on AWS and Google Cloud Platform.</li>
         <li><strong>Cloud:</strong> Skills in operating GCP and AWS cloud environments.</li>
@@ -30,7 +30,7 @@
 
 <div class="container mx-auto mt-8 p-6 bg-slate-800	rounded-lg shadow-md">
     <h2 class="text-2xl font-bold mb-4 custom-primary">Education</h2>
-    <ul>
+    <ul class="text-sm">
         <li>
             <strong>Wrocław University of Science and Technology</strong> - Wrocław<br>
             Engineer (Bachelor's degree) - Cyber Security<br>

@@ -104,13 +104,13 @@
 </style>
 
 <div class="flex flex-col justify-center items-center">
-    <div class="text-center" style="font-size:50px;">
+    <div class="text-[30px] sm:text-[50px] text-center">
         Hi!
     </div>
-    <div class="text-center" style="font-size:50px;">
-        My name is Tomek, I am
+    <div class="text-[30px] sm:text-[50px] text-center">
+        My name is Tom, I am
     </div>
-    <div class="text-center" style="font-size:50px;">
+    <div class="text-[30px] sm:text-[50px] text-center">
         <span use:animateTyping={[
             "an Engineer",
             "an Open Source Enthusiast",

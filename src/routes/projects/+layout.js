@@ -3,13 +3,27 @@ export function load() {
 	return {
 		sections: [
 			{ 
-				slug: 'command-center',
+				slug: 'ai-lab',
 				platform: "github.com",
-				githubName: 'tomek-skrond',
-				title: 'Web API that provides command line snippets',
-				tags: ["Docker", "Golang", "CLI", "Web API", "Linux"]
+				githubName: 'tscrond',
+				title: 'My AI on-prem infrastructure',
+				tags: ["Docker", "On-Prem", "Docker Compose", "Bash", "Ollama", "Stable Diffusion", "Searxng", "OpenWebUI", "CUDA"]
 			},
 			{ 
+				slug: 'dropper',
+				platform: "github.com",
+				githubName: 'tscrond',
+				title: 'Dropper App - a simple file sharing platform',
+				tags: ["Docker", "Golang", "FullStack", "Vue JS", "JavaScript", "Github Actions", "GCP", "Google Cloud Storage", "SMTP"]
+			},
+			{ 
+				slug: 'bobaklabs-k8s',
+				platform: "github.com",
+				githubName: 'tscrond',
+				title: 'My On-Prem Kubernetes Cluster based on Talos Linux',
+				tags: ["Kubernetes", "Talos Linux", "Helm", "Helmfile", "On-Prem"]
+			},
+			{
 				slug: 'mcserver-automated',
 				platform: "github.com",
 				githubName: 'tomek-skrond',
@@ -174,7 +188,20 @@ export function load() {
 			"Vagrant",
 			"Web API",
 			"Flask",
-			"Gitlab CI"
+			"Gitlab CI",
+			"Vue JS",
+			"FullStack",
+			"Google Cloud Storage",
+			"SMTP",
+			"Talos Linux",
+			"Helm",
+			"Helmfile",
+			"On-Prem",
+			"Ollama",
+			"Stable Diffusion",
+			"Searxng",
+			"OpenWebUI",
+			"CUDA"
 		]
 	};
 }
