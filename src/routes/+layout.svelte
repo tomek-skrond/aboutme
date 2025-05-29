@@ -12,7 +12,7 @@
 	});
 </script>
 
-<div class="pb-16 sm:pb-48">
+
 	<nav style="margin:0;" class="shadow-2xl w-100 px-8 md:px-auto">
 		<div class="sm:h-28 h-36 mx-auto flex items-center justify-center sm:justify-between flex-wrap gap-4">
 
@@ -51,7 +51,7 @@
 			</div>
 		</div>
 	</nav>
-</div>
+
 
 
 <slot></slot>
